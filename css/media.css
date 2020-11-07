@@ -1,0 +1,1232 @@
+ /* Extra small devices ( less than 320.9px) */
+ @media (max-width: 425.98px) { 
+
+
+    /* header part start. */
+    .header {
+       
+background-size: 450px 716px;
+       
+min-height: 125vh;
+       
+background-position: top;
+       
+background-position-y: -100px;
+}
+.navbar-brand h1 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+}
+ul li::before {  
+    height: 3px;
+}
+.menu-ul .menu-li::before {
+    left: 8%;
+}
+
+.menu-ul .menu-li:hover::before {
+    width: 11%;
+    left: 0%;
+}
+.menu-ul .menu-li::after {
+    width: 11%;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: #0b5569;
+    width: 30px;
+    height: 20px;
+    border: 1px solid #5dbbd4;
+    border-radius: 20%;
+}
+.content h1 {
+    font-size: 25px;
+}
+.offset-3 {
+    margin-left: 0%;
+}
+.social-share {
+    right: -35px;
+    margin-top: 35px;
+}
+.social-share ul li {
+    background: #5dbbd4;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    font-size: 13px;
+}
+.social-share p {
+    
+    padding-bottom: 64px;
+    
+}
+.hg {
+    width: 95%;
+    height: 445px;
+}
+.hg p span{
+    display: none;
+}
+
+.content p {
+    margin-bottom: 15px;
+    margin-right: 18px;
+    font-size: 15px;
+    padding: 0px 10px;
+}
+.btn-left{
+
+margin-left: 0px;
+
+font-size: 12px;
+}
+.btn-right{
+
+font-size: 12px;
+
+margin: 0px;
+}
+
+ /* header part done. */
+
+
+ 
+/* about me section start. */
+    .about_me{
+        
+margin-top: 0px;
+    }
+    .about_img{
+
+border-bottom-right-radius: 60px;
+
+}
+
+    .about_me h1{
+
+font-size: 30px;
+
+padding-top: 8px;
+
+margin-top: 20px;
+
+}
+    .about_me span{
+        
+font-size: 50px;
+    }
+
+    .about_me p{
+        
+    }
+
+    /* about me section done. */
+
+    /* skill part start. */
+    .skils span {
+        font-size: 40px;
+    }
+    .skils h1 {
+        
+padding-top: 5px;
+        
+font-size: 25px;
+        
+margin-bottom: 50px;
+    }
+    .skill_span {
+        
+        width: 200px;
+    }
+
+      @keyframes icon-ani{
+        0%{
+            transform: translateX(-60px);
+            
+      }
+        100%{
+            transform: translateX(110px);
+      
+            } 
+      }
+
+
+      .page-title {
+        font-size: 35px;
+        margin-bottom: 14px;
+    }
+
+
+    .skill_bar p{   
+    padding-left: 59px;
+    }
+/* carosal part */
+.carousel .item h4 {
+    font-size: 12px;
+}
+
+.carousel .thumb-wrapper {
+    padding: 22px 2px;
+    width: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    /* margin-bottom: 780px; */
+}
+
+/* carosal part */
+
+
+
+
+
+
+
+
+
+    /* skill part done. */
+
+    /* front end development.start */
+    .single_content {
+        width: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .front_h1 {
+        font-size: 22px;
+    }
+
+
+    /* front end development.end */
+
+
+    /* backend development start. */
+    .single_portfolio {
+        width: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .back_h1 {
+        font-size: 22px;
+    }
+    /* backend development end. */
+
+
+    /* digital marketing start. */
+    .digital_content {
+        width: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .digital_h1 {
+        font-size: 22px;
+    }
+
+    /* digital marketing end. */
+
+    /* graphic part start. */
+    .graphic_content {
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .graphic_h1 {
+        font-size: 22px;
+    }
+    /* graphic part end. */
+    /* resume parrt start. */
+    
+    .resume h1 {
+        padding-top: 7px;
+        font-size: 25px;
+    }
+    .resume h1 span {
+        font-size: 40px;
+    }
+    .res_title h3 {
+    font-size: 22px;
+    left: 15px;
+    }
+
+h3 {}
+    .res_title h2 {
+        left: 60%;
+        font-size: 22px;
+    }
+    .resume-content {
+        height: 300px;
+        width: 100%;
+        margin-left: 10px;
+        /* padding-bottom: 32px; */
+    }
+    .resume-box:hover .resume-content {
+        background-size: 110% 105%;
+    }
+    .resume-box::before{
+        
+left: 3px;
+    }
+    .resume-box::after{
+        
+left: 13px;
+    }
+
+    /* wrokd section start. */
+
+
+
+
+
+    .works h1 {
+        padding-top: 5px;
+        font-size: 25px;
+        margin-bottom: 100px;
+    }
+    .works h1 span {
+        font-size: 40px;
+    }
+
+    .portfolio {
+        width: 80%;
+    }
+
+    .snowboard {
+        width: 58%;
+    }
+    .strict {
+        width: 55%;
+    }
+    .lucid {
+        width: 70%;
+    }
+
+    .music {
+        width: 67%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* wrokd section end. */
+
+    /* qoustion part start. */
+    .question {
+        background-size: auto;
+        height: 100px;
+        width: 100%;
+        border-bottom-right-radius: 55px;
+    }
+
+    .question h1 {
+        margin-top: 35px;
+        font-size: 12px;
+    }
+    .question h2 {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .btn-col-q {
+        margin-top: 38px;
+    }
+    .btn-question {
+        border-bottom-right-radius: 17px;
+        margin-right: 0px;
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+    /* qoustion part end. */
+    /* contact part start. */
+    .contact{
+       
+    }
+    .contact h1{
+        
+padding-top: 8px;
+        
+font-size: 25px;
+    }
+    .contact h1 span{
+        
+font-size: 45px;
+        }
+    
+    .contact .name{
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .contact .email {
+        width: 80%;
+        margin-left: 0px;
+        height: 40px;
+        background: #fafafa;
+        border: 1px solid #40afcc;
+    }
+    .contact .subj {
+        width: 80%;
+    }
+    .contact textarea {
+        width: 80%;
+        height: 150px;
+        background: #fafafa;
+        border: 1px solid #40afcc;
+        padding-left: 10px;
+    }
+    form{
+        position: relative;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .contact .submit {
+        background: #fafafa;
+        bottom: -15%;
+        right: 8%;
+        transform: translate(-8%, 15%);
+    }
+    .contact .submit:hover{
+        background: #66bfd6;
+        color: white;
+    }
+    .map iframe{
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .github{
+        background: #e3f9ff;
+        position: relative;
+        padding: 0px 0;
+        padding-top: 0px;
+        border-bottom-right-radius: 20px;
+        height: 60px;
+        margin: 50px 0;
+        width: 120%;
+    }
+    .github img{
+        position: relative;
+        top: 15px;
+        left: 5%;
+        height: 20px;
+    }
+    
+    .github h1{
+        font-size: 12px;
+        position: relative;
+        left: 10%;
+        top: 13px;
+    }
+  /* contact part end. */
+ } 
+ 
+
+
+
+ @media (min-width: 426px) and (max-width: 480px)
+ {
+        .skill_bar p {
+            
+            padding-left: 138px;
+            
+        }
+
+    }
+ /* Small devices (landscape phones, 576px to 767px) */
+@media (min-width: 426px) and (max-width: 767.98px) { 
+
+     /* header part start. */
+     .header {
+
+        background-size: 750px 716px;
+        min-height: 125vh;
+        background-position: top;
+        background-position-y: -100px;
+    
+        }
+         .navbar-brand h1 {
+            font-size: 35px;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            font-size: 15px;
+        }
+        .navbar-nav .nav-link {
+            font-size: 12px;
+        }
+        ul li::before {  
+            height: 3px;
+        }
+        .menu-ul .menu-li::before {
+            left: 8%;
+        }
+    
+        .menu-ul .menu-li:hover::before {
+            width: 11%;
+            left: 0%;
+        }
+        .menu-ul .menu-li::after {
+            width: 11%;
+        }
+    
+    
+        .navbar-light .navbar-toggler-icon {
+            background-color: #0b5569;
+            width: 32px;
+            height: 24px;
+            border: 1px solid #5dbbd4;
+            border-radius: 20%;
+        }
+        .content h1 {
+            font-size: 31px;
+            margin-top: 20;
+            /* margin-top: 0px; */
+            margin-right: -82px;
+            margin-left: -117px;
+            /* padding-bottom: 5px; */
+        }
+        .offset-3 {
+            margin-left: 20%;
+        }
+        .social-share {
+            right: -20px;
+            margin-top: 30px;
+        }
+        .social-share ul li {
+            background: #5dbbd4;
+            height: 25px;
+            width: 25px;
+            line-height: 25px;
+            font-size: 10px;
+        }
+        .social-share p {
+            
+            padding-bottom: 64px;
+            
+        }
+        .hg {
+            width: 100%;
+            position: relative;
+            height: 370px;
+        }
+        .content p {
+            margin: 23px;
+            margin-left: -103px;
+            margin-right: -90px;
+            text-align: inherit;
+            padding: 0px 0px;
+        }
+        .btn-left{
+    
+                position: absolute;
+                left: 0px;
+            }
+        .btn-right{
+    
+                position: absolute;
+            }
+        .menu-ul .menu-li::before {
+                left: 8%;
+            }
+    
+        .menu-ul .menu-li:hover::before {
+                width: 14%;
+            }
+        .menu-ul .menu-li::after {
+                width: 14%;
+            }
+    
+            /* header part done. */
+    
+            
+        /* about me section start. */
+            .about_img{
+                
+            }
+            .about_me h1{
+    
+            }
+            .about_me span{
+                
+                font-size: 75px;
+            }
+    
+            .about_me p{
+                
+            }
+    
+    
+        /* about me section done. */
+    
+        /* skill part start. */
+        .skils span {
+            font-size: 70px;
+        }
+        .skils h1 {
+            
+        padding-top: 8px;
+        margin-bottom: 70px;
+        }
+        .last_digital{
+        
+/* left: 50%; */
+        }
+        
+    
+    /* skill part done. */
+        /* graphic part start. */
+        .graphic_content {
+            width: 100%;
+            height: 92%;
+            left: 50%;
+            transform: translateX(-55%);
+        }
+        /* graphic part end. */
+        /* resume part start. */
+        .resume h1 span {
+            font-size: 70px;
+        }
+        .resume h1 {
+               padding-top: 8px;
+               margin-bottom: 150px;
+        }
+        .res_title h3 {
+            left: 30px;
+        }
+        .res_title h2 {
+            left: 70%;
+        }
+        .resume-content {
+            height: 250px;
+            width: 390px;
+            margin-left: 50px;
+        }
+        .resume-box:hover .resume-content {
+            background-size: 116% 107%;
+        }
+        .resume-box::before{   
+            left: 20px;
+        }
+        .resume-box::after{
+            
+            left: 29px;
+        }
+        .resume-box {
+            
+        }
+         /* wrokd section start. */
+    
+         .works h1 {
+            padding-top: 6px;
+            font-size: 45px;
+            margin-bottom: 170px;
+        }
+        .works h1 span {
+            font-size: 65px;
+        }
+        
+        /* wrokd section end. */
+    
+        
+            /* qoustion part start. */
+            .question {
+                background-size: auto;
+                height: 130px;
+                width: 90%;
+                border-bottom-right-radius: 70px;
+            }
+    
+            .question h1 {
+                margin-top: 35px;
+                font-size: 21px;
+            }
+            .question h2 {
+                font-size: 22px;
+                font-weight: 700;
+            }
+            .btn-col-q {
+                margin-top: 38px;
+            }
+            .btn-question {
+                border-bottom-right-radius: 17px;
+                margin-right: 10px;
+                font-size: 15px;
+            }
+            /* qoustion part end. */
+            /* contact part start. */
+            .contact{
+               
+            }
+            .contact h1{
+                
+                padding-top: 7px;           
+                font-size: 37px;
+            }
+            .contact h1 span{
+                
+                font-size: 60px;
+            }
+            
+            .contact .name{
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            .contact .email {
+                width: 100%;
+                margin-left: 0px;
+                
+            }
+            .contact .subj {
+                width: 100%;
+            }
+            .contact textarea {
+                width: 100%;
+                height: 130px;
+            }
+            form{
+                
+            }
+            .contact .submit {
+                bottom: -15%;
+                right: -2%;
+                transform: translate(-2%, 15%);
+            }
+            .map iframe{
+                width: 100%;
+            }
+    
+            .github{
+                padding: 0px 0;
+                padding-top: 0px;
+                border-bottom-right-radius: 30px;
+                height: 65px;
+                margin: 50px 0;
+            }
+            .github img{
+                position: relative;
+                top: 15px;
+                left: 10%;
+                height: 25px;
+            }
+            
+            .github h1{
+                font-size: 15px;
+                position: relative;
+                left: 20%;
+                top: 15px;
+            }
+          /* contact part end. */
+    
+    }
+    
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+
+    /* header part start. */
+    .header {
+
+background-size: 970px 716px;
+
+min-height: 125vh;
+
+background-position: top;
+
+background-position-y: 0px;
+
+}
+    .navbar-brand h1 {
+       font-size: 40px;
+   }
+   .navbar-light .navbar-nav .nav-link {
+       font-size: 16px;
+   }
+
+   ul li::before {  
+       height: 3px;
+   }
+   .menu-ul .menu-li::before {
+       left: 8%;
+   }
+
+   .menu-ul .menu-li:hover::before {
+       width: 11%;
+       left: 0%;
+   }
+   .menu-ul .menu-li::after {
+       width: 11%;
+   }
+
+   .navbar-nav .nav-link {
+       font-size: 12px;
+   }
+   .navbar-light .navbar-toggler-icon {
+       background-color: #0b5569;
+       width: 35px;
+       height: 25px;
+       border: 1px solid #5dbbd4;
+       border-radius: 20%;
+   }
+   .content h1 {
+       font-size: 35px;
+       margin-top: 20;
+       /* margin-top: 0px; */
+       margin-right: -82px;
+       margin-left: -117px;
+       /* padding-bottom: 5px; */
+   }
+   .offset-3 {
+       margin-left: 25%;
+   }
+   .social-share {
+       right: -22px;
+       margin-top: 51px;
+   }
+   .social-share ul li {
+       background: #5dbbd4;
+       height: 28px;
+       width: 28px;
+       line-height: 29px;
+       font-size: 15px;
+   }
+   .social-share p {
+       
+       padding-bottom: 64px;
+       
+   }
+   .hg {
+       width: 100%;
+       position: relative;
+       height: 400px;
+   }
+   .content p {
+       margin: 23px;
+       margin-left: -103px;
+       margin-right: -55px;
+       text-align: inherit;
+   }
+   .btn-left{
+       position: absolute;
+       left: 40px;
+   }
+
+   .btn-right{
+           position: absolute;
+           right: 65px;
+       }
+   .menu-ul .menu-li::before {
+           left: 8%;
+       }
+
+   .menu-ul .menu-li:hover::before {
+           width: 11%;
+       }
+   .menu-ul .menu-li::after {
+           width: 11%;
+       }  
+
+       /* header part done. */
+
+       
+   /* about me section start. */
+
+   .about_img{
+   border-bottom-right-radius: 70px;
+   }
+   .about_me h1{
+
+   }
+   .about_me span{
+       
+   font-size: 75px;
+   }
+
+   .about_me p{
+       
+   }
+
+/* about me section done. */
+   /* skill part start. */
+   .skils span {
+       font-size: 75px;
+   }
+   .skils h1 {
+       
+   }
+   .last_digital{
+   
+       left: 100%;   
+       transform: translateX(-45%);
+   }
+
+   /* front end development start. */
+   .front_h1 {
+       padding-top: 70px;
+   }
+   .single_content {
+       width: 90%;
+       left: 50%;
+       transform: translateX(-50%);
+   }
+   
+   /* front end development end. */
+
+    /* back end development start. */
+   .single_portfolio {
+       width: 90%;
+       left: 50%;
+       transform: translateX(-50%);
+   }
+   
+   /* back end development end. */
+ /* skill part done. */
+
+
+   /* graphic part start. */
+
+   .graphic_content {
+       width: 100%;
+       height: 95%;
+   }
+   /* graphic part end. */
+   /* resume part start. */
+   .resume h1 span {
+       font-size: 70px;
+   }
+   .resume h1 {
+          padding-top: 8px;
+          margin-bottom: 150px;
+   }
+   .res_title h3 {
+       left: 30px;
+   }
+   .res_title h2 {
+       left: 70%;
+   }
+   .resume-content {
+       /* height: 310px; */
+       width: 329px;
+       margin-left: 32px;
+   }
+   .resume-box:hover .resume-content {
+       background-size: 124% 103%;
+   }
+   .resume-box::before{   
+       left: 20px;
+   }
+   .resume-box::after{
+       
+       left: 29px;       
+       height: 94%;
+   }
+   .resume-box {
+       
+       height: 349px;
+   }
+     /* wrokd section start. */
+
+     .works h1 {
+       padding-top: 6px;
+       font-size: 50px;
+       margin-bottom: 100px;
+       }
+   .works h1 span {
+       font-size: 70px;
+       }
+   
+   /* wrokd section end. */
+   
+       /* qoustion part start. */
+       .question {
+           background-size: auto;
+           height: 130px;
+           width: 90%;
+           border-bottom-right-radius: 70px;
+       }
+
+       .question h1 {
+           margin-top: 35px;
+           font-size: 21px;
+       }
+       .question h2 {
+           font-size: 25px;
+           font-weight: 700;
+           text-align: center;
+       }
+       .btn-col-q {
+           margin-top: 38px;
+       }
+       .btn-question {
+           border-bottom-right-radius: 17px;
+           margin-right: 10px;
+           font-size: 15px;
+       }
+       /* qoustion part end. */
+       /* contact part start. */
+       .contact{
+          
+       }
+       .contact h1{
+           
+           padding-top: 7px;           
+           font-size: 50px;
+       }
+       .contact h1 span{
+           
+           font-size: 70px;
+       }
+       
+       .contact .name{
+           width: 100%;
+           margin-bottom: 15px;
+       }
+       .contact .email {
+           width: 100%;
+           margin-left: 0px;
+           
+       }
+       .contact .subj {
+           width: 100%;
+       }
+       .contact textarea {
+           width: 100%;
+           height: 130px;
+       }
+       form{
+           
+       }
+       .contact .submit {
+           bottom: -15%;
+           right: -2%;
+           transform: translate(-2%, 15%);
+       }
+       .map iframe{
+           width: 100%;
+       }
+
+       .github{
+           padding: 0px 0;
+           padding-top: 0px;
+           border-bottom-right-radius: 30px;
+           height: 65px;
+           margin: 50px 0;
+       }
+       .github img{
+           position: relative;
+           top: 15px;
+           left: 10%;
+           height: 25px;
+       }
+       
+       .github h1{
+           font-size: 15px;
+           position: relative;
+           left: 20%;
+           top: 15px;
+       }
+     /* contact part end. */
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    /* header part start. */
+       .navbar-light .navbar-toggler-icon {
+       background-color: #0b5569;
+       width: 35px;
+       height: 25px;
+       border: 1px solid #5dbbd4;
+       border-radius: 20%;
+   }
+   .content h1 {
+       font-size: 35px;
+       margin-top: 20;
+       /* margin-top: 0px; */
+       margin-right: -82px;
+       margin-left: -117px;
+       /* padding-bottom: 5px; */
+   }
+   .offset-3 {
+       margin-left: 30%;
+   }
+   .social-share {
+       right: -15px;
+       margin-top: 35px;
+   }
+   .social-share ul li {
+       background: #5dbbd4;
+       height: 28px;
+       width: 28px;
+       line-height: 29px;
+       font-size: 15px;
+   }
+   .social-share p {
+       
+       padding-bottom: 64px;
+       
+   }
+   .hg {
+       width: 100%;
+       position: relative;
+   }
+   .content p {
+       margin: 23px;
+       margin-left: -103px;
+       margin-right: -55px;
+       text-align: inherit;
+   }
+   .btn-left{
+           position: absolute;
+           /* left: 70px; */
+           right: 50%;
+       }
+
+   .btn-right{
+           position: absolute;
+           /* right: 65px; */
+           right: 25%;
+   }
+   .last_digital{
+   
+   }
+   
+   
+    /* header part done. */
+    /* resume part start. */
+    .resume h1 span {
+       font-size: 60px;
+   }
+   .resume h1 {    
+       padding-top: 6px;    
+       font-size: 45px;
+   }
+   .res_title h3 {
+       left: 25px;
+   }
+   .res_title h2 {
+       left: 55%;
+   }
+   .resume-content {
+       height: 250px;
+       width: 406px;
+       margin-left: 50px;
+   }
+   .resume-box:hover .resume-content {
+       background-size: 116% 107%;
+   }
+   .resume-box::before{
+       
+       left: 20px;
+   }
+   .resume-box::after{
+       
+       left: 29px;
+   }
+    /* qoustion part start. */
+    .question {
+       background-size: auto;
+       height: 140px;
+       width: 90%;
+       border-bottom-right-radius: 70px;
+   }
+
+   .question h1 {
+       margin-top: 35px;
+       font-size: 25px;
+   }
+   .question h2 {
+       font-size: 30px;
+       font-weight: 700;
+       text-align: center;
+   }
+   .btn-col-q {
+       margin-top: 38px;
+   }
+   .btn-question {
+       border-bottom-right-radius: 17px;
+       margin-right: 10px;
+       font-size: 18px;
+   }
+   /* qoustion part end. */
+   /* contact part start. */
+   .contact{
+          
+   }
+   .contact h1{
+       
+padding-top: 7px;
+       
+font-size: 50px;
+   }
+   .contact h1 span{
+       
+font-size: 80px;
+   }
+   
+   .contact .name{
+       width: 100%;
+       margin-bottom: 15px;
+   }
+   .contact .email {
+       width: 100%;
+       margin-left: 0px;
+       
+   }
+   .contact .subj {
+       width: 100%;
+   }
+   .contact textarea {
+       width: 100%;
+       height: 185px;
+   }
+   form{
+       
+   }
+   .contact .submit {
+       bottom: -15%;
+       right: 0%;
+       transform: translate(0%, 15%);
+   }
+   .map iframe{
+       width: 100%;
+       height: 360px;
+   }
+
+   .github{
+       padding: 0px 0;
+       padding-top: 0px;
+       border-bottom-right-radius: 45px;
+       height: 85px;
+       margin: 50px 0;
+   }
+   .github img{
+       position: relative;
+       top: 10px;
+       left: 10%;
+       height: 40px;
+   }
+   
+   .github h1{
+       font-size: 30px;
+       position: relative;
+       left: 20%;
+       top: 15px;
+   }
+ /* contact part end. */
+
+  
+   
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+   
+}
