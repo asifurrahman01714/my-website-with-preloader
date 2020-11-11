@@ -267,10 +267,10 @@ ul li:hover::before{
     font-size: 50px;
     position: relative;
     text-transform: uppercase;
-    font-weight: 700;
-    padding-top: 10px;
-    color: #66bfd6;
-    margin-bottom: 30px;
+    font-weight: 900;
+    padding-top: 0px;
+    color: #95a6ab;
+    margin-bottom: 60px;
 }
 .about_me span{
     position: absolute;
@@ -286,6 +286,8 @@ ul li:hover::before{
 .about_me p{
     
 color: white;
+    
+/* margin-top: 21px; */
 }
 .a_img{
     
@@ -700,14 +702,21 @@ transform: translateX(-50%);
 }
 .resume h1{
     
-	position: relative;    
-	font-size: 50px;   
-	text-transform: uppercase;  
-	font-weight: 700;   
-	padding-top: 10px;    
-	color: #66bfd6;    
-	text-align: center;   
-    margin-bottom: 100px;
+position: relative;
+    
+font-size: 50px;
+    
+text-transform: uppercase;
+    
+font-weight: 900;
+    
+padding-top: 0px;
+    
+color: #95a6ab;
+    
+text-align: center;
+    
+margin-bottom: 100px;
 }
 .resume h1 span{
     
