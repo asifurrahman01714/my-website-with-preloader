@@ -1,16 +1,15 @@
  /* Extra small devices ( less than 320.9px) */
- @media (max-width: 425.98px) { 
+ @media (max-width: 320px) { 
 
-
+    .logo{
+        
+    }
     /* header part start. */
-    .header {
+.header {
        
-background-size: 450px 716px;
-       
-min-height: 125vh;
-       
-background-position: top;
-       
+background-size: 450px 716px;  
+min-height: 125vh;      
+background-position: top;     
 background-position-y: -100px;
 }
 .navbar-brand h1 {
@@ -28,11 +27,11 @@ ul li::before {
 }
 
 .menu-ul .menu-li:hover::before {
-    width: 11%;
+    width: 19%;
     left: 0%;
 }
 .menu-ul .menu-li::after {
-    width: 11%;
+    width: 19%;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -77,18 +76,26 @@ ul li::before {
     margin-right: 18px;
     font-size: 15px;
     padding: 0px 10px;
+    line-height: 1.1;
 }
 .btn-left{
 
-margin-left: 0px;
+/* margin-left: 11px; */
 
-font-size: 12px;
+margin: 9px;
+font-size: 13px!important;
+left: -5%;
+bottom: -34%;
 }
 .btn-right{
 
-font-size: 12px;
+font-size: 12px!important;
 
-margin: 0px;
+/* margin: 0px; */
+
+left: 50%;
+
+bottom: -30%;
 }
 
  /* header part done. */
@@ -104,6 +111,7 @@ margin-top: 0px;
 
 border-bottom-right-radius: 60px;
 
+margin-bottom: 40px;
 }
 
     .about_me h1{
@@ -143,6 +151,11 @@ margin-bottom: 50px;
         width: 200px;
     }
 
+    .project_span {
+        
+        width: 200px;
+    }
+
       @keyframes icon-ani{
         0%{
             transform: translateX(-60px);
@@ -153,17 +166,36 @@ margin-bottom: 50px;
       
             } 
       }
+      .project_heading::before {
+       
+        top: -94%;
+        left: 37%;
+        margin-top: 65px;
+        z-index: 999;
+    }
 
 
-      .page-title {
+    .page-title {
+        font-size: 35px;
+        margin-bottom: 14px;
+    }
+
+    .Project_heading {
         font-size: 35px;
         margin-bottom: 14px;
     }
 
 
+
     .skill_bar p{   
     padding-left: 59px;
     }
+
+    .project_paragraph{   
+        
+    }
+
+
 /* carosal part */
 .carousel .item h4 {
     font-size: 12px;
@@ -429,7 +461,21 @@ font-size: 45px;
  } 
  
 
-
+ @media (min-width: 321px) and (max-width: 425.99px){
+    .btn-left{
+        
+        margin: 9px;
+        font-size: 13px!important;
+        left: -5%;
+        bottom: -34%;
+        }
+        .btn-right{
+        
+        font-size: 12px!important;
+        left: 50%;
+        bottom: -30%;
+        }
+ }
 
  @media (min-width: 426px) and (max-width: 480px)
  {
@@ -439,11 +485,50 @@ font-size: 45px;
             
         }
 
+        .project_paragraph  {
+            
+            padding-left: 138px;
+            
+        }
+
+        .btn-left{
+        
+            margin: 9px;
+            font-size: 13px!important;
+            left: -5%;
+            bottom: -34%;
+            }
+            .btn-right{
+            
+            font-size: 12px!important;
+            left: 50%;
+            bottom: -30%;
+            }
+
     }
  /* Small devices (landscape phones, 576px to 767px) */
-@media (min-width: 426px) and (max-width: 767.98px) { 
+@media (min-width: 481px) and (max-width: 767.98px) { 
 
      /* header part start. */
+
+     .btn-left{
+        
+margin: 9px;
+        
+/* font-size: 13px!important; */
+        
+left: 8%!important;
+        
+bottom: -34%;
+        }
+        .btn-right{
+        
+/* font-size: 12px!important; */
+        
+left: 45%;
+        
+bottom: -30%;
+        }
      .header {
 
         background-size: 750px 716px;
@@ -525,9 +610,11 @@ font-size: 45px;
         }
         .btn-left{
     
-                position: absolute;
-                left: 0px;
-            }
+position: absolute;
+    
+/* left: 15px!important; */
+    
+}
         .btn-right{
     
                 position: absolute;
@@ -569,11 +656,20 @@ font-size: 45px;
         .skils span {
             font-size: 70px;
         }
+        .project_span {
+            font-size: 70px;
+        }
         .skils h1 {
             
         padding-top: 8px;
         margin-bottom: 70px;
         }
+
+        .Project_heading {
+            
+            padding-top: 8px;
+            margin-bottom: 70px;
+            }
         .last_digital{
         
 /* left: 50%; */
@@ -770,8 +866,9 @@ background-position-y: 0px;
        background-color: #0b5569;
        width: 35px;
        height: 25px;
-       border: 1px solid #5dbbd4;
+       /* border: 1px solid #5dbbd4; */
        border-radius: 20%;
+       /* color: white; */
    }
    .content h1 {
        font-size: 35px;
