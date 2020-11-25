@@ -5,6 +5,9 @@
         
     }
     /* header part start. */
+    .Iam {
+        left: -6%;
+    }
 .header {
        
 background-size: 450px 716px;  
@@ -461,7 +464,488 @@ font-size: 45px;
  } 
  
 
- @media (min-width: 321px) and (max-width: 425.99px){
+ @media (min-width: 321px) and (max-width: 375.99px){
+    .btn-left{
+        
+        margin: 9px;
+        font-size: 13px!important;
+        left: -5%;
+        bottom: -34%;
+        }
+        .btn-right{
+        
+        font-size: 12px!important;
+        left: 50%;
+        bottom: -30%;
+        }
+        .Iam {
+            left: -6%;
+        }
+
+        .logo{
+                
+            }
+            /* header part start. */
+        .header {
+               
+        background-size: 450px 716px;  
+        min-height: 125vh;      
+        background-position: top;     
+        background-position-y: -100px;
+        }
+        .navbar-brand h1 {
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            font-size: 12px;
+        }
+        ul li::before {  
+            height: 3px;
+        }
+        .menu-ul .menu-li::before {
+            left: 8%;
+        }
+        
+        .menu-ul .menu-li:hover::before {
+            width: 19%;
+            left: 0%;
+        }
+        .menu-ul .menu-li::after {
+            width: 19%;
+        }
+        
+        .navbar-light .navbar-toggler-icon {
+            background-color: #0b5569;
+            width: 30px;
+            height: 20px;
+            border: 1px solid #5dbbd4;
+            border-radius: 20%;
+        }
+        .content h1 {
+            font-size: 25px;
+        }
+        .offset-3 {
+            margin-left: 0%;
+        }
+        .social-share {
+            right: -35px;
+            margin-top: 35px;
+        }
+        .social-share ul li {
+            background: #5dbbd4;
+            height: 25px;
+            width: 25px;
+            line-height: 25px;
+            font-size: 13px;
+        }
+        .social-share p {
+            
+            padding-bottom: 64px;
+            
+        }
+        .hg {
+            width: 95%;
+            height: 445px;
+        }
+        .hg p span{
+            display: none;
+        }
+        
+        .content p {
+            margin-bottom: 15px;
+            margin-right: 18px;
+            font-size: 15px;
+            padding: 0px 10px;
+            line-height: 1.1;
+        }
+        .btn-left{
+        
+/* margin-left: 11px; */
+        
+margin: 9px;
+        
+font-size: 13px!important;
+        
+left: 0%;
+        
+bottom: -34%;
+        }
+        .btn-right{
+        
+font-size: 12px!important;
+        
+/* margin: 0px; */
+        
+left: 46%;
+        
+bottom: -29%;
+        }
+        
+         /* header part done. */
+        
+        
+         
+        /* about me section start. */
+            .about_me{
+                
+        margin-top: 0px;
+            }
+            .about_img{
+        
+        border-bottom-right-radius: 60px;
+        
+        margin-bottom: 40px;
+        }
+        
+            .about_me h1{
+        
+        font-size: 30px;
+        
+        padding-top: 8px;
+        
+        margin-top: 20px;
+        
+        }
+            .about_me span{
+                
+        font-size: 50px;
+            }
+        
+            .about_me p{
+                
+            }
+        
+            /* about me section done. */
+        
+            /* skill part start. */
+            .skils span {
+                font-size: 40px;
+            }
+            .skils h1 {
+                
+        padding-top: 5px;
+                
+        font-size: 25px;
+                
+        margin-bottom: 50px;
+            }
+            .skill_span {
+                
+                width: 200px;
+            }
+        
+            .project_span {
+                
+                width: 200px;
+            }
+        
+              @keyframes icon-ani{
+                0%{
+                    transform: translateX(-60px);
+                    
+              }
+                100%{
+                    transform: translateX(110px);
+              
+                    } 
+              }
+              .project_heading::before {
+               
+                top: -94%;
+                left: 37%;
+                margin-top: 65px;
+                z-index: 999;
+            }
+        
+        
+            .page-title {
+                font-size: 35px;
+                margin-bottom: 14px;
+            }
+        
+            .Project_heading {
+                font-size: 35px;
+                margin-bottom: 14px;
+            }
+        
+        
+        
+            .skill_bar p{   
+            padding-left: 59px;
+            }
+        
+            .project_paragraph{   
+                
+            }
+        
+        
+        /* carosal part */
+        .carousel .item h4 {
+            font-size: 12px;
+        }
+        
+        .carousel .thumb-wrapper {
+            padding: 22px 2px;
+            width: 100%;
+        }
+        
+        .carousel-control-prev, .carousel-control-next {
+            /* margin-bottom: 780px; */
+        }
+        
+        /* carosal part */
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            /* skill part done. */
+        
+            /* front end development.start */
+            .single_content {
+                width: 70%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            .front_h1 {
+                font-size: 22px;
+            }
+        
+        
+            /* front end development.end */
+        
+        
+            /* backend development start. */
+            .single_portfolio {
+                width: 70%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            .back_h1 {
+                font-size: 22px;
+            }
+            /* backend development end. */
+        
+        
+            /* digital marketing start. */
+            .digital_content {
+                width: 70%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            .digital_h1 {
+                font-size: 22px;
+            }
+        
+            /* digital marketing end. */
+        
+            /* graphic part start. */
+            .graphic_content {
+                width: 80%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            .graphic_h1 {
+                font-size: 22px;
+            }
+            /* graphic part end. */
+            /* resume parrt start. */
+            
+            .resume h1 {
+                padding-top: 7px;
+                font-size: 25px;
+            }
+            .resume h1 span {
+                font-size: 40px;
+            }
+            .res_title h3 {
+            font-size: 22px;
+            left: 15px;
+            }
+        
+        h3 {}
+            .res_title h2 {
+                left: 60%;
+                font-size: 22px;
+            }
+            .resume-content {
+                height: 300px;
+                width: 100%;
+                margin-left: 10px;
+                /* padding-bottom: 32px; */
+            }
+            .resume-box:hover .resume-content {
+                background-size: 110% 105%;
+            }
+            .resume-box::before{
+                
+        left: 3px;
+            }
+            .resume-box::after{
+                
+        left: 13px;
+            }
+        
+            /* wrokd section start. */
+        
+        
+        
+        
+        
+            .works h1 {
+                padding-top: 5px;
+                font-size: 25px;
+                margin-bottom: 100px;
+            }
+            .works h1 span {
+                font-size: 40px;
+            }
+        
+            .portfolio {
+                width: 80%;
+            }
+        
+            .snowboard {
+                width: 58%;
+            }
+            .strict {
+                width: 55%;
+            }
+            .lucid {
+                width: 70%;
+            }
+        
+            .music {
+                width: 67%;
+            }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            /* wrokd section end. */
+        
+            /* qoustion part start. */
+            .question {
+                background-size: auto;
+                height: 100px;
+                width: 100%;
+                border-bottom-right-radius: 55px;
+            }
+        
+            .question h1 {
+                margin-top: 35px;
+                font-size: 12px;
+            }
+            .question h2 {
+                font-size: 12px;
+                font-weight: 600;
+            }
+            .btn-col-q {
+                margin-top: 38px;
+            }
+            .btn-question {
+                border-bottom-right-radius: 17px;
+                margin-right: 0px;
+                font-size: 12px;
+                padding: 5px 5px;
+            }
+            /* qoustion part end. */
+            /* contact part start. */
+            .contact{
+               
+            }
+            .contact h1{
+                
+        padding-top: 8px;
+                
+        font-size: 25px;
+            }
+            .contact h1 span{
+                
+        font-size: 45px;
+                }
+            
+            .contact .name{
+                width: 80%;
+                margin-bottom: 15px;
+            }
+            .contact .email {
+                width: 80%;
+                margin-left: 0px;
+                height: 40px;
+                background: #fafafa;
+                border: 1px solid #40afcc;
+            }
+            .contact .subj {
+                width: 80%;
+            }
+            .contact textarea {
+                width: 80%;
+                height: 150px;
+                background: #fafafa;
+                border: 1px solid #40afcc;
+                padding-left: 10px;
+            }
+            form{
+                position: relative;
+                text-align: center;
+                margin-bottom: 100px;
+            }
+            .contact .submit {
+                background: #fafafa;
+                bottom: -15%;
+                right: 8%;
+                transform: translate(-8%, 15%);
+            }
+            .contact .submit:hover{
+                background: #66bfd6;
+                color: white;
+            }
+            .map iframe{
+                width: 80%;
+                margin-left: 30px;
+            }
+        
+            .github{
+                background: #e3f9ff;
+                position: relative;
+                padding: 0px 0;
+                padding-top: 0px;
+                border-bottom-right-radius: 20px;
+                height: 60px;
+                margin: 50px 0;
+                width: 120%;
+            }
+            .github img{
+                position: relative;
+                top: 15px;
+                left: 5%;
+                height: 20px;
+            }
+            
+            .github h1{
+                font-size: 12px;
+                position: relative;
+                left: 10%;
+                top: 13px;
+            }
+          /* contact part end. */
+         
+ }
+
+ @media (min-width: 376px) and (max-width: 425.99px){
     .btn-left{
         
         margin: 9px;
@@ -476,7 +960,9 @@ font-size: 45px;
         bottom: -30%;
         }
 
-
+        .Iam {
+            left: -6%;
+        }
         .logo{
                 
             }
