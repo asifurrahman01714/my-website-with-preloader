@@ -34,7 +34,7 @@ font-family: 'Roboto Slab', serif; */
     position: absolute;
     z-index: 999999;
     width: 100%;
-    height: 400%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

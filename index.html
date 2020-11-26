@@ -37,10 +37,11 @@
 
     <!-- ?Plugin Active Css -->
 	<!-- <link rel="stylesheet" href="css/jquery.fancybox.min.css" /> -->
-	<link rel="stylesheet" href="css/myanim.css">
+	<!-- <link rel="stylesheet" href="css/myanim.css"> -->
 	<link rel="stylesheet" href="css/loaders.min.css">
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/animated-circle.css">
+  <link rel="stylesheet" href="css/animated-circle.css">
+  <link rel="stylesheet" href="css/trailer.css">
 	<!-- <link rel="stylesheet" href="css/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" /> -->
 	<!-- ?Plugin Active Css -->
 
@@ -152,8 +153,12 @@
                   Look forward to working with you!</span>
                 </p>
                 <div>
-                  <button type="button" class="btn btn-all btn-left btn-primary"><a href="https://res.cloudinary.com/djim8shfn/video/upload/v1604764516/my%20website%20intro%20video/final%20vedio%20editting/final_best_editting...all_bug_remove.._avgngv.mp4" target="_blank" style="text-decoration: none; color: white;" class="pop_video">Watch Video</a></button><button type="button" class="btn btn-all btn-right btn-primary"><a target="_blank" style="text-decoration: none; color: white;" href="https://res.cloudinary.com/djim8shfn/image/upload/v1606323355/my%20website%20intro%20video/my%20logo/my%20cv/screencapture-asifurrahman01714-github-io-My-portfolio-CV-2020-11-25-22_49_16_1_j6hvwr.png">Download CV</a> </button>
+                  <button onclick="toggle();" type="button" class="btn btn-all btn-left btn-primary">Watch Video</button> <a href="my cv/mycv.png" download="My CV" target="_blank" style="text-decoration: none; color: white;" > <button type="button" class="btn btn-all btn-right btn-primary"> Download CV  </button></a> 
                 </div>
+                <div class="trailer">
+                  <video  src="https://res.cloudinary.com/djim8shfn/video/upload/v1604764516/my%20website%20intro%20video/final%20vedio%20editting/final_best_editting...all_bug_remove.._avgngv.mp4" controls autoplay></video>
+                  <img src="images/close.png"  class="close" onclick="toggle();" alt="">
+              </div>
                
               
      
@@ -339,7 +344,7 @@
         <h1 class="back_h1 wow slideInRight" data-wow-duration="2s">back end development</h1>
         <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
-            <div class="single_portfolio wow rollIn" data-wow-duration="2.5s" >
+            <div class="single_portfolio wow slideInLeft" data-wow-duration="3s" >
               <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1599157257/php_jq2v0x.png" class="portfolio_img " alt="">
               <div class="portfolio_text">
                 <p>basic js</p>
@@ -356,7 +361,7 @@
   
   
           <div class="col-lg-3  col-md-6 col-sm-6 mb-3">
-            <div class="single_portfolio wow rollIn" data-wow-duration="2s" >
+            <div class="single_portfolio wow slideInLeft" data-wow-duration="2s" >
               <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1599157257/python_iztjep.png" class="portfolio_img" alt="">
               <div class="portfolio_text">
                 <p>basic js</p>
@@ -372,7 +377,7 @@
 
 
           <div class="col-lg-3  col-md-6 col-sm-6 mb-3">
-            <div class="single_portfolio wow rollIn" data-wow-duration="1.5s" >
+            <div class="single_portfolio wow slideInRight" data-wow-duration="2s" >
               <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1599157256/database_m4lh0p.png" class="portfolio_img" alt="">
               <div class="portfolio_text">
                 <p>basic js</p>
@@ -384,7 +389,7 @@
   
   
           <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="single_portfolio wow rollIn" data-wow-duration="1s" >
+            <div class="single_portfolio wow slideInRight" data-wow-duration="3s" >
               <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1599157256/data-visualisation_lzagvn.png" class="portfolio_img" alt="">
               <div class="portfolio_text">
                 <p>basic js</p>
@@ -424,7 +429,7 @@
     
     
           <div class="col-lg-4 col-md-6 col-sm-6 mb-3">
-            <div class="digital_content  wow bounceInUp" data-wow-duration="2s"  data-wow-delay=".1S" >
+            <div class="digital_content  wow fadeIn" data-wow-duration="2s"  data-wow-delay=".1S" >
               <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1599157257/socaial-media_e2qdf2.png"  alt="">
               
               <div class="img-text">
@@ -1002,14 +1007,21 @@
           </p>
       </div>
       <div class="mix_controller d-flex justify-content-center flex-wrap mb-40 wow fadeInUp">
-          <button class="btn btn_cust btn-outline-success" our-mixitup-control="" data-filter="all">All</button>
-          <button class="btn btn_cust btn-outline-success" our-mixitup-control="" data-filter=".dg">Design</button>
-          <button class="btn btn_cust btn-outline-success" our-mixitup-control="" data-filter=".dv">Development</button>
-          <button class="btn btn_cust btn-outline-success mr-0" our-mixitup-control="" data-filter=".wp">Wordpress</button>
+          <!-- <button class="btn btn_cust btn-outline-success" our-mixitup-control="" data-filter="all">All</button>
+          <button class="btn btn_cust btn-outline-success" our-mixitup-control="" data-filter="web">Design</button>
+          <button class="btn btn_cust btn-outline-success" our-mixitup-control="" data-filter="dev">Development</button>
+          <button class="btn btn_cust btn-outline-success mr-0" our-mixitup-control="" data-filter=".wp">Wordpress</button> -->
+
+
+          <button class="btn btn_cust btn-default filter-button" data-filter="all">All</button>
+          <button class="btn btn_cust btn-default filter-button" data-filter="web">web</button>
+          <button class="btn btn_cust btn-default filter-button" data-filter="psdb"> psd to bootstrap</button>
+          <button class="btn btn_cust btn-default filter-button" data-filter="word"> wordpress</button>
+          <button class="btn btn_cust btn-default filter-button" data-filter="php"> php</button>
       </div>
       <div class="row justify-content-center mix_container">
           <!-- SINGLE COLUMN -->
-          <div class="col-sm-10 col-md-6 col-lg-4 mix dv">
+          <div class="col-sm-10 col-md-6 col-lg-4 mix filter web psdb">
               <div class="single_project position-relative mb-30 rounded wow slideInLeft shadow overflow-hidden">
                   <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1604824067/porfolio%20website%202/img/p1_drb9xp.png" alt="Project Photo" class="w-100 d-block rounded">
                   <a href="https://res.cloudinary.com/djim8shfn/image/upload/v1604824067/porfolio%20website%202/img/p1_drb9xp.png" data-fancybox="gallery" class="expand_btn">
@@ -1038,7 +1050,7 @@
               </div>
           </div>
           <!-- SINGLE COLUMN -->
-          <div class="col-sm-10 col-md-6 col-lg-4 mix wp">
+          <div class="col-sm-10 col-md-6 col-lg-4 mix filter web">
                   <div class="single_project position-relative mb-30 rounded wow zoomIn shadow overflow-hidden">
                       <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1604824067/porfolio%20website%202/img/p2_fcngkm.png" alt="Project Photo" class="w-100 d-block rounded">
                       <a href="https://res.cloudinary.com/djim8shfn/image/upload/v1604824067/porfolio%20website%202/img/p2_fcngkm.png" data-fancybox="gallery" class="expand_btn">
@@ -1067,7 +1079,7 @@
                   </div>
           </div>
           <!-- SINGLE COLUMN -->
-          <div class="col-sm-10 col-md-6 col-lg-4 mix dg">
+          <div class="col-sm-10 col-md-6 col-lg-4 mix filter dev">
                   <div class="single_project position-relative mb-30 rounded wow slideInRight shadow overflow-hidden">
                       <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1604824067/porfolio%20website%202/img/p3_ihrltc.png" alt="Project Photo" class="w-100 d-block rounded">
                       <a href="https://res.cloudinary.com/djim8shfn/image/upload/v1604824067/porfolio%20website%202/img/p3_ihrltc.png" data-fancybox="gallery" class="expand_btn">
@@ -1096,7 +1108,7 @@
                   </div>
           </div>
               <!-- SINGLE COLUMN -->
-              <div class="col-sm-10 col-md-6 col-lg-4 mix wp">
+              <div class="col-sm-10 col-md-6 col-lg-4 mix filter php">
                   <div class="single_project position-relative mb-30 rounded wow slideInLeft shadow overflow-hidden">
                       <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1604824088/porfolio%20website%202/img/p4_byntim.png" alt="Project Photo" class="w-100 d-block rounded">
                       <a href="https://res.cloudinary.com/djim8shfn/image/upload/v1604824088/porfolio%20website%202/img/p4_byntim.png" data-fancybox="gallery" class="expand_btn">
@@ -1126,7 +1138,7 @@
               </div>
               <!-- SINGLE COLUMN -->
 
-              <div class="col-sm-10 col-md-6 col-lg-4 mix dv">
+              <div class="col-sm-10 col-md-6 col-lg-4 mix filter php">
                 <div class="single_project position-relative mb-30 rounded wow slideInLeft shadow overflow-hidden">
                     <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1599158406/My%20personal%20portfolio/portfolio_lybyxa.png" alt="Project Photo" class="w-100 d-block rounded">
                     <a href="https://res.cloudinary.com/djim8shfn/image/upload/v1599158406/My%20personal%20portfolio/portfolio_lybyxa.png" data-fancybox="gallery" class="expand_btn">
@@ -1159,7 +1171,7 @@
 
             
               <!-- SINGLE COLUMN -->
-              <div class="col-sm-10 col-md-6 col-lg-4 mix dg dv">
+              <div class="col-sm-10 col-md-6 col-lg-4 mix dg filter web">
                       <div class="single_project position-relative mb-30 rounded wow slideInRight shadow overflow-hidden">
                           <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1604824070/porfolio%20website%202/img/p6_ue4c34.png" alt="Project Photo" class="w-100 d-block rounded">
                           <a href="https://res.cloudinary.com/djim8shfn/image/upload/v1604824070/porfolio%20website%202/img/p6_ue4c34.png" data-fancybox="gallery" class="expand_btn">
@@ -1188,7 +1200,7 @@
                       </div>
               </div>
                   <!-- SINGLE COLUMN -->
-          <div class="col-sm-10 col-md-6 col-lg-4 mix wp dg">
+          <div class="col-sm-10 col-md-6 col-lg-4 mix wp filter all web psdb">
               <div class="single_project position-relative mb-30 rounded wow slideInLeft shadow overflow-hidden">
                   <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1604824070/porfolio%20website%202/img/p7_ynlkm6.png" alt="Project Photo" class="w-100 d-block rounded">
                   <a href="https://res.cloudinary.com/djim8shfn/image/upload/v1604824070/porfolio%20website%202/img/p7_ynlkm6.png" data-fancybox="gallery" class="expand_btn">
@@ -1217,7 +1229,7 @@
               </div>
           </div>
           <!-- SINGLE COLUMN -->
-          <div class="col-sm-10 col-md-6 col-lg-4 mix dv">
+          <div class="col-sm-10 col-md-6 col-lg-4 mix filter psdb">
                   <div class="single_project position-relative mb-30 rounded wow zoomIn shadow overflow-hidden">
                       <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1604824068/porfolio%20website%202/img/p8_vocjjo.png" alt="Project Photo" class="w-100 d-block rounded">
                       <a href="https://res.cloudinary.com/djim8shfn/image/upload/v1604824068/porfolio%20website%202/img/p8_vocjjo.png" data-fancybox="gallery" class="expand_btn">
@@ -1246,7 +1258,7 @@
                   </div>
           </div>
           <!-- SINGLE COLUMN -->
-          <div class="col-sm-10 col-md-6 col-lg-4 mix dv">
+          <div class="col-sm-10 col-md-6 col-lg-4 mix filter psdb">
             <div class="single_project position-relative mb-30 rounded wow zoomIn shadow overflow-hidden">
                 <img src="https://res.cloudinary.com/djim8shfn/image/upload/v1604824067/porfolio%20website%202/img/p5_hun9nx.png" alt="Project Photo" class="w-100 d-block rounded">
                 <a href="https://res.cloudinary.com/djim8shfn/image/upload/v1604824067/porfolio%20website%202/img/p5_hun9nx.png" data-fancybox="gallery" class="expand_btn">
@@ -1500,10 +1512,23 @@
 <script>
   setTimeout(function(){
       $('.preloader').fadeToggle();
-  }, 1500);
+  }, 2000);
 </script>
 
 <!-- JavaScript code for preloader. -->
+
+<!-- video -->
+<script type="text/javascript">
+  function toggle(){
+      var trailer = document.querySelector(".trailer")
+      var video = document.querySelector("video")
+      trailer.classList.toggle("active");
+      video.pause();
+      video.currentTime = 0;
+
+  }
+</script>
+<!-- video -->
 
 
 
